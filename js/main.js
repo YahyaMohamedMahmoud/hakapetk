@@ -6,7 +6,7 @@ new Splide( '#thumbnail-carousel', {
     pagination : false,
     focus      : 'center',
     breakpoints: {
-      600: {
+      "600px": {
         fixedWidth : 70,
         fixedHeight: 64,
       },
