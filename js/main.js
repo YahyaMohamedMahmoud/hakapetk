@@ -1,18 +1,32 @@
-new Splide( '#thumbnail-carousel', {
-    fixedWidth : "14%",
-    fixedHeight: "auto",
-    gap        : 45,
-    rewind     : true,
-    pagination : false,
-    focus      : 'center',
-    breakpoints: {
-      "600px": {
-        fixedWidth : 70,
-        fixedHeight: 64,
-      },
-    },
-  } ).mount();
+// new Splide( '#thumbnail-carousel', {
+//     fixedWidth : "14%",
+//     fixedHeight: "auto",
+//     gap        : 45,
+//     rewind     : true,
+//     pagination : false,
+//     focus      : 'center',
+//     // breakpoints: {
+//     //   "600px": {
+//     //     fixedWidth : 70,
+//     //     fixedHeight: 64,
+//     //   },
+//     // },
+//   } ).mount();
+
+new Glider(document.querySelector('.glider'), {
+    slidesToScroll: 1,
+    slidesToShow: 5,
+    draggable: true,
+    dots: '.dots',
+    arrows: {
+      prev: '.glider-prev',
+      next: '.glider-next'
+    }
+  });
   
+
+
+
 
 
   var swiper = new Swiper('.swiper-container', {

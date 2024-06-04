@@ -2,6 +2,12 @@
 .landing{
     background-color: #f7fdf5;
     padding: 40px 0;
+    position: relative;
+}
+.landing .cardImage{
+    position: absolute;
+    top: 30%;
+    left: 45%;
 }
 .landing .dicover{
     color: var(--parag-color);
@@ -420,6 +426,11 @@ margin-bottom: 10px;
     color: #9cb1c8;
     font-weight: 900;
 
+}
+
+
+.image{
+    max-width: 180px !important;
 }
 
 

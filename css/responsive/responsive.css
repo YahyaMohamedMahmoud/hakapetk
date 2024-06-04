@@ -11,14 +11,18 @@
     .landing .dicover{
         font-size: 17px;
     }
+    .landing .cardImage {
+        width: 10%;
+        position: absolute;
+        top: 29%;
+        left: 41%;
+    }
     .landing h1{
         font-size: 35px;
         line-height: 40px;
     }
     .landing .user{
         font-size: 14px;
-        text-decoration: underline;
-        color: #213569;
     }
     .landing .user i{
         padding: 9px 8px;
@@ -147,23 +151,13 @@
     }
     .goal .contact .contact1{
         padding: 17px 100px;
-        background-color: #169683;
-        color: var(--secand-color);
         margin: 0 20px;
         transition: all .5s;
         border: 1px solid transparent;
      }
-     .goal .contact .contact1:hover{
-         background-color: #13c7ac;
-     }
      .goal .contact .contact2 {
         padding: 17px 100px;
         text-align: center;
-        background-color: var(--secand-color);
-        color: var(--secand-color);
-        color: #6cdc2d;
-        border: 1px solid #6cdc2d;
-        transition: all .5s;
         margin-top: 10px;
     }
     .goal .teamText h5 {
@@ -192,6 +186,12 @@
     body{
         overflow-x: hidden;
     }
+    .landing .cardImage {
+        width: 8%;
+        position: absolute;
+        top: 26.5%;
+        left: 47%;
+    }
     .landing .dicover{
         font-size: 17px;
     }
@@ -201,8 +201,6 @@
     }
     .landing .user{
         font-size: 12px;
-        text-decoration: underline;
-        color: #213569;
     }
     .landing .user i{
         padding: 9px 8px;
@@ -307,7 +305,6 @@
         margin-top: 0px;
     }
     .divison .card6{
-        background-color: #f68C201A;
         margin-top: 0px;
     }
     .divison .card7{
@@ -331,22 +328,13 @@
     }
     .goal .contact .contact1{
         padding: 17px 100px;
-        background-color: #169683;
-        color: var(--secand-color);
         margin: 0 20px;
         transition: all .5s;
         border: 1px solid transparent;
      }
-     .goal .contact .contact1:hover{
-         background-color: #13c7ac;
-     }
      .goal .contact .contact2 {
         padding: 17px 100px;
         text-align: center;
-        background-color: var(--secand-color);
-        color: var(--secand-color);
-        color: #6cdc2d;
-        border: 1px solid #6cdc2d;
         transition: all .5s;
         margin-top: 10px;
     }
@@ -374,6 +362,12 @@
     body{
         overflow-x: hidden;
     }
+    .landing .cardImage {
+        width: 10%;
+        position: absolute;
+        top: 18.5%;
+        left: 1%;
+    }
     .landing .dicover{
         font-size: 17px;
     }
@@ -383,8 +377,6 @@
     }
     .landing .user{
         font-size: 12px;
-        text-decoration: underline;
-        color: #213569;
     }
     .landing .user i{
         padding: 9px 8px;
@@ -486,7 +478,6 @@
         margin-top: 0px;
     }
     .divison .card6{
-        background-color: #f68C201A;
         margin-top: 0px;
     }
     .divison .card7{
@@ -510,25 +501,13 @@
     }
     .goal .contact .contact1{
         padding: 17px 80px;
-        background-color: #169683;
-        color: var(--secand-color);
         margin: 0 20px;
-        transition: all .5s;
-        border: 1px solid transparent;
         display: block;
-     }
-     .goal .contact .contact1:hover{
-         background-color: #13c7ac;
      }
      .goal .contact .contact2 {
         margin: auto;
         width: 88%;
         text-align: center;
-        background-color: var(--secand-color);
-        color: var(--secand-color);
-        color: #6cdc2d;
-        border: 1px solid #6cdc2d;
-        transition: all .5s;
         display: block;
         margin-top: 10px;
     }
